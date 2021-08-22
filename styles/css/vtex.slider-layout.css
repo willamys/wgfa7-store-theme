@@ -1,0 +1,30 @@
+.paginationDot--isActive{
+  background-color: chartreuse;
+}
+.slideChildrenContainer--myproduct{
+  background-color: #424242;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 39px;
+  margin-bottom: 39px;
+  border-radius: 5px;
+}
+
+.sliderLayoutContainer--myproduct{
+  margin-bottom: 50px;
+}
+
+.slideChildrenContainer--sliderlayout-home{
+  background-color: #303030;
+  padding: 15px 0px;
+}
+.caretIcon--sliderlayout-home{
+  color: white;
+}
+.sliderArrows{ /*definindo o posicionamento da arrows no slider layout*f/
+  position: absolute;
+  /*top: 195px;*/
+  margin-top: 315px;
+  margin-left: 240px;
+  margin-right: 240px;
+}

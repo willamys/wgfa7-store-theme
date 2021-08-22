@@ -1,0 +1,38 @@
+{
+  "slider-layout#home": {
+    "children": [
+      "image#brand1",
+      "image#brand2"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 20,
+      "centerMode": "disabled",
+      "blockClass": "sliderlayout-home",
+      "showNavigationArrows": "desktopOnly",
+      "navigationStep": "page"
+    }
+  },
+  "image#brand1": {
+    "props": {
+      "src": "assets/banner1.png",
+      "blockClass": "imagebrand",
+      "link": {
+        "url": "woodtrophie/p"
+      }
+    }
+  },
+  "image#brand2": {
+    "props": {
+      "src": "assets/banner2.png",
+      "blockClass": "imagebrand",
+      "link": {
+        "url": "kit-upmedal/guerreiros"
+      }
+    }
+  }
+}

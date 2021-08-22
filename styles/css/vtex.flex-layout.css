@@ -1,0 +1,56 @@
+.flexRow--myheader{
+  background-color: #212121;
+}
+.flexRowContent--myfooter{
+  background-color: #424242;
+}
+
+.flexRowContent :global(.vtex-button){
+  background-color: #59FF00;;
+}
+.flexRowContent :global(.vtex-button__label){
+  color: #fff;
+}
+/* definição de stilo para os componentes no minicart*/
+.flexRowContent :global(.vtex-product-list-0-x-productBrandName){
+  color: #fff;
+}
+
+.flexRowContent :global(.vtex-product-list-0-x-productName){
+  color: #59FF00;
+}
+
+.flexRowContent :global(.vtex-product-list-0-x-deleteIcon){
+  color: red;
+}
+
+.flexRowContent :global(.vtex-dropdown__container){
+  color: red;
+}
+
+.flexRowContent :global(.vtex-product-list-0-x-productPrice){
+  color: #fff;
+}
+
+.flexRowContent :global(.vtex-checkout-summary-0-x-summaryItemLabel){
+  color: #fff;
+}
+
+.flexRowContent :global(.vtex-checkout-summary-0-x-summaryItemPrice){
+  color: #59FF00;
+}
+
+.flexRowContent :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+  color: #59FF00;
+}
+/*************************/
+.flexColChild :global(.vtex-button__label){
+  font-weight: bold;
+  color: #212121;
+}
+
+
+
+
+
+

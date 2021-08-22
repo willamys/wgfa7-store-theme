@@ -1,0 +1,96 @@
+  {
+    "tab-layout#home": {
+      "children": [
+        "tab-list#home",
+        "tab-content#home"
+      ],
+      "props": {
+        "blockClass": "home",
+        "defaultActiveTabId": "promocao"
+      }
+    },
+    "tab-list#home": {
+      "children": [
+        "tab-list.item#promocao",
+        "tab-list.item#corrida"
+      ]
+    },
+    "tab-list.item#promocao": {
+      "props": {
+        "tabId": "promocao",
+        "label": "PROMOÇÃO",
+        "defaultActiveTab": true
+      }
+    },
+    "tab-list.item#corrida": {
+      "props": {
+        "tabId": "corrida",
+        "label": "CORRIDA"
+      }
+    },
+    "tab-content#home": {
+      "children": [
+        "tab-content.item#promocao",
+        "tab-content.item#corrida"
+      ]
+    },
+    "tab-content.item#promocao": {
+      "children": [
+        "slider-layout#home",
+        "search-result-layout.customQuery#promocao"
+      ],
+      "props": {
+        "tabId": "promocao"
+      }
+    },
+    "search-result-layout.customQuery#promocao": {
+      "props": {
+        "querySchema": {
+          "maxItemsPerPage": 10,
+          "queryField": "Kit UpMedal"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#home",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "search-result-layout.customQuery#corrida": {
+      "props": {
+        "querySchema": {
+          "maxItemsPerPage": 10,
+          "queryField": "Palmeiras"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#home",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+      ]
+    },
+    "tab-content.item#corrida": {
+      "children": [
+        "slider-layout#home",
+        "search-result-layout.customQuery#corrida"
+      ],
+      "props": {
+        "tabId": "corrida"
+      }
+    },
+    "search-result-layout.desktop#home": {
+      "props": {
+        "defaultGalleryLayout": "two"
+      },
+      "children": [
+        "breadcrumb.search",
+        "search-title.v2",
+        // "order-by.v2",
+        //"search-fetch-previous",
+        "search-content",
+        "total-products.v2"
+        //"filter-navigator.v3"
+        //"search-fetch-more"
+      ]
+    }
+  }

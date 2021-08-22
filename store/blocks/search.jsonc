@@ -1,0 +1,73 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ]
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "two",
+          "component": "HomeTwoLineSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "mobile": 1
+          }
+        },
+        {
+          "name": "whole",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "desktop": 9,
+            "mobile": 1
+          }
+        }
+      ],
+      "OneOrTwoLineSummary": "product-summary.shelf",
+      "HomeTwoLineSummary": "product-summary.shelf#home",
+      "blockClass": "galleryPesquisa"
+    }
+  },
+  "search-result-layout.desktop": {
+    "props": {
+      "defaultGalleryLayout": "whole"
+    },
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      // "order-by.v2",
+      //"search-fetch-previous",
+      "search-content",
+      "total-products.v2"
+      //"filter-navigator.v3"
+      //"search-fetch-more"
+    ]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-name",
+      "product-summary-price"
+      // "add-to-cart-button"
+    ]
+  },
+  "product-summary.shelf#home": {
+    "children": [
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-image",
+      "product-list-price",
+      "product-selling-price",
+      "product-summary-buy-button"
+    ]
+  }
+}

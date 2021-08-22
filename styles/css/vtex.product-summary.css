@@ -1,0 +1,10 @@
+.brandName{
+  color: #FFFFFF;
+}
+.buyButtonText{
+  color:#000;
+}
+.buyButtonContainer :global(.vtex-button){
+  border: none;
+  background-color: #59FF00;
+}

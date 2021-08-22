@@ -1,0 +1,8 @@
+.sellingPrice{
+  color:#59FF00;
+  font-weight: bold;
+}
+.listPrice{
+  color: #fff;
+  text-decoration: line-through;
+}

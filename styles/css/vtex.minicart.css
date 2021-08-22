@@ -1,0 +1,10 @@
+.openIconContainer :global(.vtex-button){
+  background-color: #212121;
+}
+.minicartTitle{
+  color: #59FF00;
+  text-decoration: underline;
+}
+.minicartCheckoutButton :global(.vtex-button){
+  color: #212121;
+}

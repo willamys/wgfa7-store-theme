@@ -1,0 +1,30 @@
+.galleryTitle--layout{
+  color: #59FF00;
+}
+.galleryItem{
+  background-color: #424242;
+  border-radius: 5px;
+  margin: 2px 2px 20px 2px;
+}
+/*alterar produto item home*/
+.galleryItem--galleryPesquisa--whole{
+  background-color: #424242;
+  border-radius: 5px;
+}
+
+.searchResultContainer{
+  margin: 20px 0px 0px 0px;
+}
+
+.orderByText{
+  color: #59FF00;
+}
+.caretIcon{
+  color: white;
+}
+.filterPopupTitle{
+  color: white;
+}
+.filterTitle{
+  color: #59FF00;
+}

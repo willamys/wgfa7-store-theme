@@ -1,0 +1,7 @@
+.quantitySelectorTitle{
+  color: white;
+}
+.quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button){
+  background-color: #59FF00;
+  color: #212121;
+}

@@ -1,0 +1,55 @@
+.imageElement--imagebrand{ /*images do slider layout banner*/
+  width: 912px;
+  height: 273px;
+  border-radius: 20px;
+  margin-bottom: 20px; /*definindo margin para o pagination dots*/
+}
+.searchBarContainer :global(.vtex-input-prefix__group){
+  border:none;
+  border-radius:0;
+  border-bottom: thin solid #fff;
+}
+
+.searchBarContainer :global(.vtex-input__suffix){
+ background: transparent;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+  background-color: #212121;
+  color:white;
+}
+.searchBarIcon{
+  background-color: #212121;
+  color: #59FF00;
+}
+.productBrand{
+  color: #fff;
+}
+.sellingPrice{
+  color: #59FF00;
+}
+.installmentsPrice{
+  color:#fff;
+}
+
+.shippingContainer :global(.vtex-input__label){
+  background-color: #303030 ;
+  color:#fff;
+}
+
+.shippingContainer :global(.vtex-address-form-4-x-input){
+  background-color: #303030 ;
+  color:#fff;
+}
+
+.shippingContainer :global(.vtex-button__label){
+  background-color: #212121 ;
+  color:#59FF00;
+  padding: 5px;
+  height: 30px;
+}
+
+.buyButtonText{
+  color: #303030;
+  font-weight: bold;
+}
