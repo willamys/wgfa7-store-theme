@@ -1,10 +1,7 @@
 # WGFA7 Minimum Boilerplate Theme
 
-It was the store theme used to front VTEX IO Store Framework for Hiring Coders asingment 3. (DESAFII 3).
+It was the store theme used to front VTEX IO Store Framework for Hiring Coders asingment 3. (DESAFIO 3).
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
-
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
 
 ## Configuration
 
