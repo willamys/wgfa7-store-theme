@@ -2,6 +2,11 @@
 
 It was the store theme used to front VTEX IO Store Framework for Hiring Coders asingment 3. (DESAFIO 3).
 
+You can see the page like image bellow in the [link](https://wgfa7--hiringcoders2021.myvtex.com/): 
+
+
+ ![Main Page](https://github.com/willamys/wgfa7-store-theme/blob/master/docs/page.PNG)
+
 
 ## Configuration
 
